@@ -1,5 +1,6 @@
 var destinos = 
 [
+"--",
 "Aeroporto Internacional de Brasília - Presidente Juscelino Kubitschek",
 "Aeroporto Internacional de Goiânia - Santa Genoveva",
 "Aeroporto Internacional de Campo Grande",
@@ -49,25 +50,30 @@ var destinos =
 ]
 
 function oriDes(){
-	document.getElementById("origem").innerHTML = "<option value='0'>--</option>";
 	for (var i=0; i<destinos.length; i++){
-		document.getElementById("origem").innerHTML += "<option value="+(i+1).toString()+">"+destinos[i]+"</option>";
+		document.getElementById("origem").innerHTML += "<option value="+(i-1).toString()+">"+destinos[i]+"</option>";
 	}
-	document.getElementById("destino").innerHTML = "<option value='0'>--</option>";
 	for (var i=0; i<destinos.length; i++){
-		document.getElementById("destino").innerHTML += "<option value="+(i+1).toString()+">"+destinos[i]+"</option>";
+		document.getElementById("destino").innerHTML += "<option value="+(i-1).toString()+">"+destinos[i]+"</option>";
 	}
-	document.getElementById('menu').style.display = 'none';
-	document.getElementById('origem-destino').style.display = 'block';
 }
 
 function excluiOpcao(otherSelect,properSelect){
-	var e = document.getElementById(otherSelect);
-	var strUser = e.options[e.selectedIndex].value;
-	document.getElementById(properSelect).innerHTML = "";
-	for (var i=0; i<destinos.length; i++){
-		if(i+1!=strUser){
-			document.getElementById(properSelect).innerHTML += "<option value="+(i+1).toString()+">"+destinos[i]+"</option>";
+	var e1 = document.getElementById(properSelect);
+	var strUser1 = e1.options[e1.selectedIndex].value;
+	var e2 = document.getElementById(otherSelect);
+	var strUser2 = e2.options[e2.selectedIndex].value;	
+	if (!(strUser1 == -1 && strUser2 == -1)){
+		document.getElementById(otherSelect).innerHTML = "";
+		for (var i=0; i<destinos.length; i++){
+			if(i-1!=strUser1){
+				if (i-1 == strUser2){
+					document.getElementById(otherSelect).innerHTML += "<option value="+(i-1).toString()+" selected>"+destinos[i]+"</option>";
+				}
+				else{
+					document.getElementById(otherSelect).innerHTML += "<option value="+(i-1).toString()+">"+destinos[i]+"</option>";
+				}
+			}
 		}
 	}
 }
