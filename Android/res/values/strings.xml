@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VoosBaratos</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+        <string-array name="spinner1">
+        <item>Aeroporto Internacional de Brasília - Presidente Juscelino Kubitschek</item>
+        <item>Aeroporto Internacional de Goiânia - Santa Genoveva</item>
+        <item>Aeroporto Internacional de Campo Grande</item>
+        <item>Aeroporto Internacional Marechal Rondon</item>
+        <item>Aeroporto Internacional de Rio Branco - Presidente Médici</item>
+        <item>Aeroporto Internacional de Manaus - Eduardo Gomes</item>
+        <item>Aeroporto Regional de Parintins</item>
+        <item>Aeroporto Internacional de Macapá</item>
+        <item>Aeroporto Internacional de Belém - Val de Cans</item>
+        <item>Aeroporto de Marabá</item>
+        <item>Aeroporto de Santarém - Maestro Wilson Fonseca</item>
+        <item>Aeroporto Internacional de Porto Velho - Governador Jorge Teixeira de Oliveira</item>
+        <item>Aeroporto Internacional de Boa Vista - Atlas Brasil</item>
+        <item>Aeroporto de Palmas - Brigadeiro Lysias Rodrigues</item>
+        <item>Aeroporto Internacional de Maceió - Zumbi dos Palmares</item>
+        <item>Aeroporto de Ilhéus - Jorge Amado</item>
+        <item>Aeroporto de Porto Seguro</item>
+        <item>Aeroporto Internacional de Salvador - Deputado Luís Eduardo Magalhães</item>
+        <item>Aeroporto Internacional de Fortaleza - Pinto Martins</item>
+        <item>Aeroporto de Imperatriz - Guilherme Cortez</item>
+        <item>Aeroporto Internacional de São Luís - Marechal Cunha Machado</item>
+        <item>Aeroporto Internacional de João Pessoa - Presidente Castro Pinto</item>
+        <item>Aeroporto de Petrolina</item>
+        <item>Aeroporto Internacional do Recife - Gilberto Freyre</item>
+        <item>Aeroporto de Teresina - Senador Petrônio Portela</item>
+        <item>Aeroporto Internacional de Natal - Augusto Severo</item>
+        <item>Aeroporto Internacional de Aracaju - Santa Maria</item>
+        <item>Aeroporto de Vitória - Eurico de Aguiar Salles</item>
+        <item>Aeroporto Internacional de Belo Horizonte-Confins</item>
+        <item>Aeroporto de Uberlândia - Aeroporto César Bombonato</item>
+        <item>Aeroporto Santos Dumont</item>
+        <item>Aeroporto Internacional do Rio de Janeiro-Galeão</item>
+        <item>Aeroporto de Bauru-Arealva</item>
+        <item>Aeroporto Internacional de Campinas - Viracopos</item>
+        <item>Aeroporto de Presidente Prudente</item>
+        <item>Aeroporto de Ribeirão Preto</item>
+        <item>Aeroporto de São José do Rio Preto</item>
+        <item>Aeroporto de Congonhas</item>
+        <item>Aeroporto Internacional de São Paulo-Guarulhos</item>
+        <item>Aeroporto Internacional de Curitiba - Afonso Pena</item>
+        <item>Aeroporto Internacional de Foz do Iguaçu - Cataratas</item>
+        <item>Aeroporto de Londrina - Governador José Richa</item>
+        <item>Aeroporto Internacional de Porto Alegre - Salgado Filho</item>
+        <item>Aeroporto Internacional de Florianópolis - Hercílio Luz</item>
+        <item>Aeroporto de Joinville - Lauro Carneiro de Loyola</item>
+        <item>Aeroporto Internacional de Navegantes - Ministro Victor Konder</item>
+    </string-array>
+        <string-array name="spinner2">
+        <item>Aeroporto Internacional de Brasília - Presidente Juscelino Kubitschek</item>
+        <item>Aeroporto Internacional de Goiânia - Santa Genoveva</item>
+        <item>Aeroporto Internacional de Campo Grande</item>
+        <item>Aeroporto Internacional Marechal Rondon</item>
+        <item>Aeroporto Internacional de Rio Branco - Presidente Médici</item>
+        <item>Aeroporto Internacional de Manaus - Eduardo Gomes</item>
+        <item>Aeroporto Regional de Parintins</item>
+        <item>Aeroporto Internacional de Macapá</item>
+        <item>Aeroporto Internacional de Belém - Val de Cans</item>
+        <item>Aeroporto de Marabá</item>
+        <item>Aeroporto de Santarém - Maestro Wilson Fonseca</item>
+        <item>Aeroporto Internacional de Porto Velho - Governador Jorge Teixeira de Oliveira</item>
+        <item>Aeroporto Internacional de Boa Vista - Atlas Brasil</item>
+        <item>Aeroporto de Palmas - Brigadeiro Lysias Rodrigues</item>
+        <item>Aeroporto Internacional de Maceió - Zumbi dos Palmares</item>
+        <item>Aeroporto de Ilhéus - Jorge Amado</item>
+        <item>Aeroporto de Porto Seguro</item>
+        <item>Aeroporto Internacional de Salvador - Deputado Luís Eduardo Magalhães</item>
+        <item>Aeroporto Internacional de Fortaleza - Pinto Martins</item>
+        <item>Aeroporto de Imperatriz - Guilherme Cortez</item>
+        <item>Aeroporto Internacional de São Luís - Marechal Cunha Machado</item>
+        <item>Aeroporto Internacional de João Pessoa - Presidente Castro Pinto</item>
+        <item>Aeroporto de Petrolina</item>
+        <item>Aeroporto Internacional do Recife - Gilberto Freyre</item>
+        <item>Aeroporto de Teresina - Senador Petrônio Portela</item>
+        <item>Aeroporto Internacional de Natal - Augusto Severo</item>
+        <item>Aeroporto Internacional de Aracaju - Santa Maria</item>
+        <item>Aeroporto de Vitória - Eurico de Aguiar Salles</item>
+        <item>Aeroporto Internacional de Belo Horizonte-Confins</item>
+        <item>Aeroporto de Uberlândia - Aeroporto César Bombonato</item>
+        <item>Aeroporto Santos Dumont</item>
+        <item>Aeroporto Internacional do Rio de Janeiro-Galeão</item>
+        <item>Aeroporto de Bauru-Arealva</item>
+        <item>Aeroporto Internacional de Campinas - Viracopos</item>
+        <item>Aeroporto de Presidente Prudente</item>
+        <item>Aeroporto de Ribeirão Preto</item>
+        <item>Aeroporto de São José do Rio Preto</item>
+        <item>Aeroporto de Congonhas</item>
+        <item>Aeroporto Internacional de São Paulo-Guarulhos</item>
+        <item>Aeroporto Internacional de Curitiba - Afonso Pena</item>
+        <item>Aeroporto Internacional de Foz do Iguaçu - Cataratas</item>
+        <item>Aeroporto de Londrina - Governador José Richa</item>
+        <item>Aeroporto Internacional de Porto Alegre - Salgado Filho</item>
+        <item>Aeroporto Internacional de Florianópolis - Hercílio Luz</item>
+        <item>Aeroporto de Joinville - Lauro Carneiro de Loyola</item>
+        <item>Aeroporto Internacional de Navegantes - Ministro Victor Konder</item>
+    </string-array>
+
+</resources>
