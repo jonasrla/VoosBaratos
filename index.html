@@ -1,29 +1,21 @@
 <html>
 	<head>
 		<title>Voos Baratos</title>
-
+		<script src="destino.js"></script>
 	</head>
 	<body>
-		<div id="menu" style="display:block;">
-			<input type="button" onclick="oriDes()" value="Pesquisar menor caminho"/>
-			<input type="button" value="Popular grafo de voos"/>
-			<script src="destino.js"></script>
-		</div>
-		<div id="origem-destino" style="display:none;">
-			<form id="origem-destino" action="" method="post">
-				<select id="origem" onclick="excluiOpcao('destino','origem')" name="origem">
+		<form id="origem-destino" action="" method="post">
+			<select id="origem" onchange="excluiOpcao('destino','origem')" name="origem">
 
-				</select>
-				<select id="destino" onclick="excluiOpcao('origem','destino')" name="destino">
+			</select>
+			<br>
+			<select id="destino" onchange="excluiOpcao('origem','destino')" name="destino">
 
-				</select>
-				<input type="button" value="Pesquisar"/>
-			</form>
-		</div>
-		<div id="popula-carregando" style="display:none;">
-		</div>
-		<div id="popula-fim" style="display:none;">
-			<h1>Processo concluído com sucesso</h1>
-		</div>
+			</select>
+			<br>
+			<input type="text" name="data"/>
+			<input type="submit" value="Pesquisar"/>
+		</form>
+		<script>oriDes()</script>
 	</body>
 </html>
