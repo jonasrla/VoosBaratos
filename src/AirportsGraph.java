@@ -1,4 +1,10 @@
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -15,7 +21,12 @@ import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
 
-public class AirportsGraph {
+public class AirportsGraph implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	ArrayList<String> airports;
 	DefaultDirectedWeightedGraph<String, DefaultWeightedEdge> airportsGraph;
 	DijkstraShortestPath<String, DefaultWeightedEdge> shortestPath;
@@ -27,6 +38,35 @@ public class AirportsGraph {
 	
 	GraphPath<String, DefaultWeightedEdge> getBestPath(){
 		return shortestPath.getPath();
+	}
+	
+	void saveGraph(String path) throws IOException{
+		FileOutputStream fileOut =
+				new FileOutputStream(path);
+
+		ObjectOutputStream out = new ObjectOutputStream(fileOut);
+		
+		StorageGraph storage = new StorageGraph();
+		storage.setAirports(airports);
+		storage.setAirportsGraph(airportsGraph);
+		
+		out.writeObject(storage);
+		out.close();
+		fileOut.close();
+		System.out.printf("Serialized data is saved in "+path);
+	}
+	
+	void loadGraph(String path) throws IOException, ClassNotFoundException{
+		FileInputStream fileIn = new FileInputStream(path);
+        ObjectInputStream in = new ObjectInputStream(fileIn);
+        
+        StorageGraph storage = (StorageGraph) in.readObject();
+        
+        in.close();
+        fileIn.close();
+        
+        airports = storage.getAirports();
+    	airportsGraph = storage.getAirportsGraph();
 	}
 	
 	AirportsGraph(){
