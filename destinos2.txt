@@ -1,0 +1,48 @@
+    <string-array name="spinner1">
+        <item>Brasília - Presidente Juscelino Kubitschek</item>
+        <item>Goiânia - Santa Genoveva</item>
+        <item>Campo Grande</item>
+        <item>Marechal Rondon</item>
+        <item>Rio Branco - Presidente Médici</item>
+        <item>Manaus - Eduardo Gomes</item>
+        <item>Parintins</item>
+        <item>Macapá</item>
+        <item>Belém - Val de Cans</item>
+        <item>Marabá</item>
+        <item>Santarém - Maestro Wilson Fonseca</item>
+        <item>Porto Velho - Governador Jorge Teixeira de Oliveira</item>
+        <item>Boa Vista - Atlas Brasil</item>
+        <item>Palmas - Brigadeiro Lysias Rodrigues</item>
+        <item>Maceió - Zumbi dos Palmares</item>
+        <item>Ilhéus - Jorge Amado</item>
+        <item>Porto Seguro</item>
+        <item>Salvador - Deputado Luís Eduardo Magalhães</item>
+        <item>Fortaleza - Pinto Martins</item>
+        <item>Imperatriz - Guilherme Cortez</item>
+        <item>São Luís - Marechal Cunha Machado</item>
+        <item>João Pessoa - Presidente Castro Pinto</item>
+        <item>Petrolina</item>
+        <item>Recife - Gilberto Freyre</item>
+        <item>Teresina - Senador Petrônio Portela</item>
+        <item>Natal - Augusto Severo</item>
+        <item>Aracaju - Santa Maria</item>
+        <item>Vitória - Eurico de Aguiar Salles</item>
+        <item>Belo Horizonte-Confins</item>
+        <item>Uberlândia - César Bombonato</item>
+        <item>Santos Dumont</item>
+        <item>Rio de Janeiro-Galeão</item>
+        <item>Bauru-Arealva</item>
+        <item>Campinas - Viracopos</item>
+        <item>Presidente Prudente</item>
+        <item>Ribeirão Preto</item>
+        <item>São José do Rio Preto</item>
+        <item>Congonhas</item>
+        <item>São Paulo-Guarulhos</item>
+        <item>Curitiba - Afonso Pena</item>
+        <item>Foz do Iguaçu - Cataratas</item>
+        <item>Londrina - Governador José Richa</item>
+        <item>Porto Alegre - Salgado Filho</item>
+        <item>Florianópolis - Hercílio Luz</item>
+        <item>Joinville - Lauro Carneiro de Loyola</item>
+        <item>Navegantes - Ministro Victor Konder</item>
+    </string-array>
